@@ -19,9 +19,9 @@ $ docker-compose up
 ```
 Если вы хотите настроить, вы можете найти пример конфигурации здесь Ссылка
 
-Докер
+### Докер
 Сначала вам нужно запустить Postgres.
-
+```
  $ docker run \
      -v $HOME/.faraday:/home/faraday/.faraday \
      -p 5985:5985 \
@@ -30,6 +30,8 @@ $ docker-compose up
      -e PGSQL_PASSWD='postgres_password' \
      -e PGSQL_DBNAME='postgres_db_name' \
      faradaysec/faraday:latest
+```
+
 PyPi
 $ pip3 install faradaysec
 $ faraday-manage initdb
