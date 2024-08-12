@@ -32,15 +32,21 @@ $ docker-compose up
      faradaysec/faraday:latest
 ```
 
-PyPi
+### PyPi
+```
 $ pip3 install faradaysec
 $ faraday-manage initdb
 $ faraday-server
-Двоичные пакеты (Debian/RPM)
-Вы можете найти установщики на нашей странице релизов
+```
 
+Двоичные пакеты (Debian/RPM)
+
+Вы можете найти установщики на нашей странице релизов
+```
 $ sudo apt install faraday-server_amd64.deb
 # Add your user to the faraday group
 $ faraday-manage initdb
 $ sudo systemctl start faraday-server
+```
+
 Добавьте пользователя в группу, а затем выполнитеfaraday
