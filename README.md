@@ -39,7 +39,7 @@ $ faraday-manage initdb
 $ faraday-server
 ```
 
-Двоичные пакеты (Debian/RPM)
+### Двоичные пакеты (Debian/RPM)
 
 Вы можете найти установщики на нашей странице релизов
 ```
@@ -49,4 +49,4 @@ $ faraday-manage initdb
 $ sudo systemctl start faraday-server
 ```
 
-Добавьте пользователя в группу, а затем выполнитеfaraday
+Добавьте пользователя в группу, а затем выполните `faraday`
